@@ -18,7 +18,7 @@
 				<configuration>
 					<connectors>
 						<connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
-							<port>8080</port>
+							<port>8082</port>
 							<maxIdleTime>60000</maxIdleTime>
 						</connector>
 					</connectors>
@@ -91,7 +91,7 @@
 									<!-- Use the line below to point to your firefox binary on a linux system 
 									<browser>*firefox /home/tfn/firefox/firefox-bin</browser>
 									 -->
-									<startURL>http://localhost:8080/maven-selenium-example/</startURL>
+									<startURL>http://localhost:8082/maven-selenium-example/</startURL>
 								</configuration>
 							</execution>
 							<!-- Execution for running tests with Internet Explorere
